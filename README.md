@@ -1,3 +1,44 @@
+# Portfolio build with (NextJS, TypeScript, and TailwindCSS)
+
+
+## Getting Started
+
+Go to terminal and run the following commands:
+
+```
+git clone git@github.com:zainsadaqat/nextjs-tailwind-ts-portfolio.git
+```
+
+```
+cd nextjs-tailwind-ts-portfolio
+```
+
+```
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+
+## **Author**
+
+### _ZAIN SADAQAT_
+
+- GitHub: [@zainsadaqat](https://github.com/zainsadaqat)<br/>
+
+- Twitter: [@zain_sadaqat](https://twitter.com/zain_sadaqat)<br/>
+
+- LinkedIn: [@zain-sadaqat](https://www.linkedin.com/in/zain-sadaqat/)<br/>
+
+- AngelList: [@zain-sadaqat](https://angel.co/u/zain-sadaqat)<br/>
+
+- Instagram: [@zain.web.dev](https://www.instagram.com/zain.web.dev)<br/>
+
 Create NextJS App with TypeScript
 
 ```
@@ -16,7 +57,7 @@ Now generate tailwindCSS config files
 npx tailwindcss init -p
 ```
 
-Add all template paths
+Add all template paths tailwind.config.js
 
 ```
 content: [
@@ -33,24 +74,16 @@ Add CSS directives to globals.css
 @tailwind utilities;
 ```
 
-## Getting Started
+## You Install Nextjs with Tailwind Preconfig Setup
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
+You install nextjs with tailwind pre config setup for the project. The nextjs team provided all examples. In setup, all configs are added by default in your project.
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
+npx create-next-app --example with-tailwindcss with-tailwindcss-app
+```
+# or
+```
+yarn create next-app --example with-tailwindcss with-tailwindcss-app
+```
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
@@ -59,9 +92,3 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
